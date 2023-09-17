@@ -1,0 +1,195 @@
+body {
+    margin: 0 auto;
+    background-color: #171717;
+    display: flex;
+    width: 428px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header{
+    background-color: #1D1D1D;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.WHmain{
+    margin-top: 10px;
+    margin-bottom: 140px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px ; 
+}
+#workedHouers{
+    background-color: #1D1D1D;
+    padding: 0px 40px 15px;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    grid-column-start:1;
+    grid-column-end:4 ;
+}
+
+#whinput{
+    margin:auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 152px;
+    border-radius: 20px;
+    background: #2C2B2B;
+    grid-row-start:3 ;
+    grid-row-end: ;
+    grid-column-start:1;
+    grid-column-end: ;
+
+}
+
+.wh{
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 280px;
+    border-radius: 20px;
+    border: 0;
+    padding: auto;
+    background: #575353;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.whcalculate{
+    display: block;
+    margin: 10px auto;
+    border: 0;
+    padding: 13px 35px;
+    border-radius: 20px;
+    background: #575353;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.TaxesMain{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px ;
+}
+
+#TaxTitle{
+    background-color: #1D1D1D;
+    width: 220px;
+    padding: 0px 40px 15px;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    grid-column-start:1;
+    grid-column-end:4 ;
+}
+
+#Output{
+    margin:auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 70px;
+    border-radius: 20px;
+    background: #2C2B2B;
+    grid-row-start:3 ;
+    grid-row-end: ;
+    grid-column-start:1;
+    grid-column-end: ;
+}
+
+.DeductionsMain{
+    margin-top: 10px;
+    margin-bottom: 370px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px ;
+}
+
+#DeductionsTitle{
+    background-color: #1D1D1D;
+    width: 220px;
+    padding: 0px 40px 15px;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    grid-column-start:1;
+    grid-column-end:4 ;
+}
+
+#OutputDeductions{
+    margin:auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 380px;
+    border-radius: 20px;
+    background: #2C2B2B;
+    grid-row-start:3 ;
+    grid-row-end: ;
+    grid-column-start:1;
+    grid-column-end: ;
+}
+
+.IncomeMain{
+    margin-top: 10px;
+    margin-bottom: 370px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px ;
+}
+
+#IncomeTitle{
+    background-color: #1D1D1D;
+    width: 220px;
+    padding: 0px 40px 15px;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    grid-column-start:1;
+    grid-column-end:4 ;
+}
+
+#IncomeOutput{
+    margin:auto;
+    padding-top: 20px;
+    width: 320px;
+    height: 190px;
+    border-radius: 20px;
+    background: #2C2B2B;
+    grid-row-start:3 ;
+    grid-row-end: ;
+    grid-column-start:1;
+    grid-column-end: ;
+}
